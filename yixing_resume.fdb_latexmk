@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1704829589 "/Users/yixing/Desktop/SIT - AAI/IWSP/Prep/yixing-resume/yixing_resume.tex" "yixing_resume.pdf" "yixing_resume" 1704829590 0
-  "/Users/yixing/Desktop/SIT - AAI/IWSP/Prep/yixing-resume/yixing_resume.tex" 1704829589 8168 f60d79985d47bea5f991b73a823bf405 ""
+["pdflatex"] 1704830675 "/Users/yixing/Desktop/SIT - AAI/IWSP/Prep/yixing-resume/yixing_resume.tex" "yixing_resume.pdf" "yixing_resume" 1704830676 0
+  "/Users/yixing/Desktop/SIT - AAI/IWSP/Prep/yixing-resume/yixing_resume.tex" 1704830675 8270 49bd3f1cd0790d1a3213b6f0594c9a1e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx1000.tfm" 1136768653 1536 30fde759286ded71559881bfa2623939 ""
@@ -92,9 +92,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1704825387 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1704825356 7883458 01772f3aa06a6a6429fe903ecb588b81 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "yixing_resume.aux" 1704829590 1175 89ad233e71563f9b25de71febf14a541 "pdflatex"
-  "yixing_resume.out" 1704829590 501 9fcb1e0fe70b703638a88b9313784f08 "pdflatex"
-  "yixing_resume.tex" 1704829589 8168 f60d79985d47bea5f991b73a823bf405 ""
+  "yixing_resume.aux" 1704830676 1175 89ad233e71563f9b25de71febf14a541 "pdflatex"
+  "yixing_resume.out" 1704830676 501 9fcb1e0fe70b703638a88b9313784f08 "pdflatex"
+  "yixing_resume.tex" 1704830675 8270 49bd3f1cd0790d1a3213b6f0594c9a1e ""
   (generated)
   "yixing_resume.aux"
   "yixing_resume.log"
