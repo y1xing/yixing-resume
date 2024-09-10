@@ -1,0 +1,389 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoHeader}[2]{
+  \item\small{
+    {#2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubheadingSmall}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-8pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://yixing.info/}{\Large Cheng Yi Xing}} & Email : \href{mailto:royalcheng99@gmail.com}{royalcheng99@gmail.com}\\
+  \href{https://yixing.info/}{https://yixing.info/} & Mobile : \href{tel:+97943280}{+65 97943280} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Singapore Institute of Technology (SIT)}{Penultimate Year}
+      {Bachelor’s of Science in Applied Artificial Intelligence}{Aug 2022 -- Expected May 2025}
+      \resumeItemListStart
+        \resumeItem{Awards}
+          {SIT Scholarship (Full ride), awarded to just 13 students among 3000+ first-year candidates}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+
+  \resumeSubheading
+  {Target Media Culcreative (Upcoming Internship)}{Singapore}
+      {Software Engineer Intern}{Sept 2024 - April 2025}
+  \resumeItemListStart
+
+  \resumeItemNoHeader{}
+  {Recruited by COO to integrate hackathon's winning solution into their company's internal systems}
+  \resumeItemNoHeader{}
+  {Leveraging hackathon solution to help secure Target Media as the primary provider of DDPs in Punggol District}
+  
+
+  \resumeItemListEnd
+
+
+
+  \resumeSubheading
+  {Singapore Institute of Technology}{Singapore}
+  {AI Engineer Intern}{May 2024 - Present}
+  \resumeItemListStart
+
+  \resumeItemNoHeader{}
+  {Worked on Project LEARN, an initiative to enhance mother tongue language proficiency in students through AI}
+  % \resumeItemNoHeader{}
+  % {Led the AI pipeline for Paligemma, a SOTA vision language model, for natural language-based object detection}
+  \resumeItemNoHeader{}
+  {Tasked with utilising LLAMA3 as to mark student's answers to questions, finetuning the model with LoRA and ORPO Techniques to achieve scoring accuracy improvements from \textbf{60\% to 95\%} on unseen data}
+  \resumeItemNoHeader{}
+  {Designed pipelines to generate synthetic data, ensuring quality and variety in data for model generalisation}
+  \resumeItemNoHeader{}
+  {Applied prompt engineering and large language models (LLMs) to generate follow-up questions, enhancing student engagement and reinforcing learning outcomes}
+  
+  
+
+  \resumeItemListEnd
+
+  \resumeSubheading
+  {SMRT}{Singapore}
+  {Data Scientist Intern}{Jan 2024 - Aug 2024}
+  \resumeItemListStart
+
+  \resumeItemNoHeader{}
+  {Worked in a team of four to collaborate with SMRT to analyze and profile commuter travel patterns}
+  \resumeItemNoHeader{}
+  {Accomplished the creation of a feature table for commuter profiling as measured by comprehensive metrics, by engineering features based on travel patterns.}
+  \resumeItemNoHeader{}
+  {Optimized a machine learning model to identify tourists with 97.86\% accuracy, predicting tourist status for 6.9 million commuters, and identifying 2.35 million potential tourists.}
+  \resumeItemNoHeader{}
+  {Collaborated as a team to implement memory optimization techniques and data reconciliation processes, effectively handling data sets of size 200 million}
+  \resumeItemListEnd
+
+
+
+  \resumeSubheading
+  {PropNex Realty Pte Ltd}{Singapore}
+  {AI Development Intern}{Jan 2024 - May 2024}
+  \resumeItemListStart
+
+  \resumeItemNoHeader{}
+  {Worked on AdWords and TemplateAI, internal AI tools that \textbf{28,000+ agents} use to generate marketing materials}
+  \resumeItemNoHeader{}
+  {Engineered NLP pipelines using langchain and OpenAI GPT models, cutting manual data labelling time by \textbf{80\%}}
+  \resumeItemNoHeader{}
+  {Architected specialized evaluation pipelines to measure LLM content quality, accelerating review cycles}
+  \resumeItemNoHeader{}
+  {Finetuned OpenAI models for specific project needs, improving pass rates for custom evaluation criteria (e.g., character limits, meeting user-selected options ) from \textbf{50\% to 90\%}}
+  \resumeItemListEnd
+
+
+
+    \resumeSubheading
+      {Singapore Institute of Technology}{Singapore}
+      {Software Engineer}{Apr 2023 - Dec 2023}
+      \resumeItemListStart
+
+        \resumeItemNoHeader{}
+          % {Developed a web app with ReactJS and Firebase to collect audio and annotation data from \textbf{1000+ students}, achieving a\textbf{ 95\% reduction in human error.}}
+          {Developed a web app with ReactJS and Firebase to collect audio and annotation data from \textbf{1000+ students}}
+
+          \resumeItemNoHeader{}
+          % {Led the development of multi-lingual audio-to-text segmentation and transcription API with WhisperAI and FastAPI, \textbf{reducing transcription time by 90\%}}
+          {Led the development of multi-lingual audio-to-text API with OpenAI WhisperAI and FastAPI}
+
+          \resumeItemNoHeader{}
+          {Optimised ASR model parameters to achieve \textbf{10\% reduction in Character Error Rate (CER)} and \textbf{20\% improvement in timestamp accuracy}}
+          % \resumeItemNoHeader{}
+          % {Containerized the API using Docker and leveraged CUDA GPU capabilities to enhance performance by \textbf{700\%}}
+
+      \resumeItemListEnd
+
+
+      
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    % \resumeSubheading
+    %   {Mofunland}{Singapore}
+    %   {Full Stack Developer}{Nov 2022 - Jan 2023}
+    %   \resumeItemListStart
+    %       \resumeItemNoHeader{}
+    %       {Led end to end design and development of webpage for Mofunland cruise event which converted \textbf{total sales exceeding \$100,000.}}        
+    %       \resumeItemNoHeader{}
+    %       {Implemented a booking system using ExpressJS and mySQL with automated email system and stripe webhooks}        
+          
+    %   \resumeItemListEnd
+
+      % \resumeSubheading
+      % {Redfluencer}{Singapore}
+      % {Software Engineering Intern}{Apr 2022 - Nov 2022}
+      % \resumeItemListStart
+      % \resumeItemNoHeader{}
+      %     {Delivered mobile app features with React Native, resulting in a \textbf{20\% increase in user engagement.}}
+      %     \resumeItemNoHeader{}
+      %     {Addressed bugs, leading to a \textbf{reduction in crashes} and a \textbf{15\% improvement in user satisfaction scores.}}   
+      %     \resumeItemNoHeader{}
+      %     {Initiated the design of certain app’s features, including the redesign of the app’s reward system}
+      % \resumeItemListEnd
+
+      % \resumeSubheading
+      % {Other Experiences}{}
+      % {Software Engineering Intern @ Redfluencer (Start up) and Full Stack Developer Intern @ Mofunland (SME)}{}
+      % \resumeItemListStart
+      % \resumeItemNoHeader{}
+      %     {Delivered mobile app features with React Native, resulting in a \textbf{20\% increase in user engagement.}}
+      %     \resumeItemNoHeader{}
+      %     {Addressed bugs, leading to a \textbf{reduction in crashes} and a \textbf{15\% improvement in user satisfaction scores.}}   
+      %     \resumeItemNoHeader{}
+      %     {Initiated the design of certain app’s features, including the redesign of the app’s reward system}
+      % \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {OrangeTee \& Tie}{Singapore}
+    %   {Data Analyst Intern}{Mar 2018 - Oct 2018}
+    %   \resumeItemListStart
+    %     \resumeItem{Data Visualization}
+    %       {Implemented analytics solution (Tableau) to monitor and improve sales agent performance.}
+    %   \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+  %-----------AWARDS-----------------
+  \section{Awards}
+  \resumeSubHeadingListStart
+  
+    % \resumeSubheading
+    %   {1st Place: SIT x Target Media x People's Association - BeyondTheScreen}{Nov 2023}
+    %   {Created interfaces that display personalised content based on registered bluetooth devices nearby, with a CMS}{}
+      
+    %   \resumeSubheading
+    %   {2nd Place: SIT x Govtech - Hackrift}{Aug 2022}
+    %   {Designed a mobile app aimed at helping elderly connect with each other through similar interest and location}{}
+      
+      \resumeSubheadingSmall
+      {1st Place: SIT x Target Media x People's Association - BeyondTheScreen}{July 2023 - Apr 2024}
+      {}{}
+      \resumeItemListStart
+          \resumeItemNoHeader{}
+          {Developed NFC integrated interface for users to interact with ads from digital display panels (DDP)}
+          \resumeItemNoHeader{}
+          {Utlised bluetooth scanners to track user interactions with DDPs, and display personalised content}
+          \resumeItemNoHeader{}
+          {Implemented a CMS for advertisers to manage and update content, and track user interaction analytics}
+          % \resumeItemNoHeader{}
+          % {Invited by PA to collaborate on expanding product testing and showcasing at upcoming National Day event}
+          
+          
+      \resumeItemListEnd
+
+      % \resumeSubheadingSmall
+      % {Other Hackathons:}{}
+      % {}{}
+      % \resumeItemListStart
+      %     \resumeItemNoHeader{}
+      %     {SIT GovTech Hackrift 2022 (1st Runner Up), PMI SG Student Competition (2nd Runner Up), DSTA Brainhack TIL - AI Advanced (13th Place)}
+      % \resumeItemListEnd
+      
+      
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%   % \resumeSubheadingSmall
+%   % {yixing.info: Portfolio Website}{Dec 2023}
+%   % {}{}
+%   % \resumeItemListStart
+%   %     \resumeItemNoHeader{}
+%   %     {Built a personal website with Next.js, achieving a perfect \textbf{Real Experience Score of 100.}}
+%   %     \resumeItemNoHeader{}
+%   %     {Implemented a chatbot using generative AI, leveraging a vector database for knowledge storage and prompt engineering to deliver accurate responses to questions about me.}
+%   % \resumeItemListEnd
+
+
+%   % \resumeSubheadingSmall
+%   %     {InClubSIT: Club Management System}{Oct 2023}
+%   %     {}{}
+%   %     \resumeItemListStart
+%   %         \resumeItemNoHeader{}
+%   %         {Led the development of a centralised platform for SIT students to find and join clubs, and get notified of events}   
+%   %         \resumeItemNoHeader{}
+%   %         {Collaborated in a team of 6 to deliver a full-stack web app with NextJS, Firebase, FastAPI, mySQL}
+%   %     \resumeItemListEnd
+
+    
+%   %     \resumeSubheadingSmall
+%   %     {Hoobi: Digital Loyalty Program}{Jan 2023}
+%   %     {}{}
+%   %     \resumeItemListStart
+%   %     \resumeItemNoHeader{}
+%   %         {Utilized ReactJS and Firebase to develop a production-ready application serving merchants and customers.}   
+%   %         \resumeItemNoHeader{}
+%   %         {Empowered customers with seamless stamp and reward redemption features.}   
+%   %         \resumeItemNoHeader{}
+%   %         {Achieved a remarkable 100\% satisfaction rate based on customer feedback for the Hoobi app.}
+%   %     \resumeItemListEnd
+
+%       \resumeSubheadingSmall
+%   {Advanced Commuter Profiling Analysis: Integrated Team Project}{Jan 2024 - Present}
+%   {}{}
+%   \resumeItemListStart
+%       \resumeItemNoHeader{}
+%       {Collaboration with SMRT to analyze ridership transaction data and develop a commuter profiling system}
+%       \resumeItemNoHeader{}
+%       {Working in a team of 4 to analyze over \textbf{200 million transactions}, utilizing rule based and supervised learning techniques to identify profiles and patterns}
+%   \resumeItemListEnd
+
+    
+  
+      
+%   \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Skills and Technologies}
+ \resumeSubHeadingListStart
+   \resumeSubItem{Languages and Libraries:}
+      {Python (+ Pytorch, Flask, FastAPI, Pyspark, Selenium, Pandas, NumPy), JavaScript (+ React, React Native, Next.js, Express.JS),Typescript, PHP, Java, C, SQL, NoSQL}
+    \resumeSubItem{Technologies:}
+    {Firebase, Supabase, Docker, Pinecone, Redis, AWS (S3, EC2, RDS), Hadoop, Spark, HuggingFace}
+      
+   
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
