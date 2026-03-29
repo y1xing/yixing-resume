@@ -1,6 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1760638468 "/Users/yixing/Desktop/Others/yixing-resume/SWE/V3/swe_yixing_resume.tex" "swe_yixing_resume.pdf" "swe_yixing_resume" 1760638469 0
-  "/Users/yixing/Desktop/Others/yixing-resume/SWE/V3/swe_yixing_resume.tex" 1760638468 19120 0ff8715b22c9171d5adf04c5b844c501 ""
+["pdflatex"] 1761493126 "swe_yixing_resume.tex" "swe_yixing_resume.pdf" "swe_yixing_resume" 1761493127 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -12,6 +11,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
@@ -90,9 +90,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1704825387 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1704825356 7883458 01772f3aa06a6a6429fe903ecb588b81 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "swe_yixing_resume.aux" 1760638469 1072 57b75a75edd13b7c274ca5fa6dab169e "pdflatex"
-  "swe_yixing_resume.out" 1760638469 428 b289e184733cbde128cdc6321af86bb3 "pdflatex"
-  "swe_yixing_resume.tex" 1760638468 19120 0ff8715b22c9171d5adf04c5b844c501 ""
+  "swe_yixing_resume.aux" 1761493127 1072 de2522c9e4588e4f40b2f1627082eff0 "pdflatex"
+  "swe_yixing_resume.out" 1761493127 428 b8d8f3905767fbd19fc7d226e994b468 "pdflatex"
+  "swe_yixing_resume.tex" 1761493126 19019 a6e0e310218dafa96970400be6ccef74 ""
   (generated)
   "swe_yixing_resume.aux"
   "swe_yixing_resume.log"
